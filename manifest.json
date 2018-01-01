@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "Kittenfier",
+    "description": "Random kitten gifs.",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
