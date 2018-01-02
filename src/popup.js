@@ -1,5 +1,6 @@
 $(function() {
-  $('#name').keyup(function() {
-    $('#search').text($('#name').val());
+  $('#search').keyup(function() {
+    // Changes header to input text
+    //$('#greet').text($('#search').val());
   })
 })
