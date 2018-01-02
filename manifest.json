@@ -1,5 +1,5 @@
 {
-  "manifest_version": "2",
+  "manifest_version": 2,
   "name": "Kittenfier",
   "version": "0.1",
   "description": "Random kitten gifs.",
@@ -11,7 +11,7 @@
   "browser_action": {
     "default_icon": {
       "16": "images/icon16.png",
-      "24": "images/icon25.png",
+      "24": "images/icon24.png",
       "32": "images/icon32.png"
       },
     "default_popup": "popup.html"
