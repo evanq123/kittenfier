@@ -14,10 +14,10 @@
       "24": "images/icon24.png",
       "32": "images/icon32.png"
       },
-    "default_popup": "popup.html"
+    "default_popup": "src/popup.html"
     },
     "background": {
-      "scripts": ["eventPage.js"],
+      "scripts": ["src/eventPage.js"],
       "persistent": false
     }
   }
